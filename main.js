@@ -66,3 +66,19 @@ const teams = [
 ]
 
 console.log(teams);
+
+function randomNumber() {
+    return Math.floor(Math.random()*10)
+}
+
+for (let i = 0; i < teams.length; i++) {
+    teams[i].points = randomNumber()
+    teams[i].falli = randomNumber()
+}
+
+let risultato = []
+for (let i = 0; i < teams.length; i++) {
+    risultato.push({nome:teams[i].nome, falli:teams[i].falli})
+}
+
+console.log(risultato);
