@@ -5,11 +5,11 @@ Stampare a schermo la bici con peso minore. */
 const bici = [
     {
         nome: "Bici A",
-        peso: 10
+        peso: 2
     },
     {
         nome: "Bici B",
-        peso: 1
+        peso: 10
     },
     {
         nome: "Bici C",
@@ -41,3 +41,28 @@ Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
+
+const teams = [
+    {
+        nome: "Team A",
+        points: 0,
+        falli: 0
+    },
+    {
+        nome: "Team B",
+        points: 0,
+        falli: 0
+    },
+    {
+        nome: "Team C",
+        points: 0,
+        falli: 0
+    },
+    {
+        nome: "Team D",
+        points: 0,
+        falli: 0
+    }
+]
+
+console.log(teams);
